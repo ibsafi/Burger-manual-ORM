@@ -18,5 +18,4 @@ The app runs by navigating into the directory of the app folder, and then type t
 4. The bottom, a text field is presented to add new burgers into the database, where the new burger is inserted in the non-devoured section.
 
 This is a screenshot of the website
-
-* ![a Screenshot of the app usage](./images/screen.PNG)
+![a Screenshot of the app usage](./images/screen.PNG)
