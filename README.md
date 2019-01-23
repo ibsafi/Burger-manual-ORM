@@ -19,4 +19,4 @@ The app runs by navigating into the directory of the app folder, and then type t
 
 This is a screenshot of the website
 
-* ![a Screenshot of the app usage](./images/screen.png).
+* ![a Screenshot of the app usage](./images/screen.PNG).
