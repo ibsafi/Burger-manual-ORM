@@ -7,10 +7,14 @@ var connection = require("./connection.js");
 // The above helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
 // ["?", "?", "?"].toString() => "?,?,?";
 
+connection.query("DROP TABLE IF EXISTS `burgers`", (err, val) => {
+  if (err) throw err;
+  console.log(JSON.stringify(val, null, 5))
+});
 connection.query("CREATE TABLE IF NOT EXISTS `burgers`(	`id` int NOT NULL AUTO_INCREMENT,	`burger_name` varchar(255) NOT NULL,	`devoured` BOOLEAN DEFAULT false,	PRIMARY KEY (`id`))", (err, val) => {
   if (err) throw err;
   console.log(JSON.stringify(val, null, 5))
-})
+});
 connection.query("INSERT INTO `burgers` (`burger_name`) VALUES ('Cheese Burger'),('Bacon Burger'),('Mac Burger'),('Big Tasty'),('Happy Meal')", (err, val) => {
   if (err) throw err;
   console.log(JSON.stringify(val, null, 5))
