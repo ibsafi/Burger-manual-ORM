@@ -16,7 +16,7 @@ The app runs by navigating into the directory of the app folder, and then type t
 # Try it on HEROKU:
 This link will jump you to test the application, have fun!
  
-* https://thawing-garden-34982.herokuapp.com/
+* * ["Try it"](https://thawing-garden-34982.herokuapp.com/)
 
 # Illustartion & Screenshots:
 
